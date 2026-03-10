@@ -21,8 +21,8 @@ public class ApplicationCommandHandler
     {
         var app = _mapper.Map<Application>(command);
         app.StatusId = (int)ApplicationStatus.InProgress;
-        await _applicationRepository.Add(app, cancellationToken);
-        //await _publisher.PublishApplication(app);
+
+        await _publisher.PublishApplication(app);
     }
 
     public async Task HandleStatusUpdate(UpdateApplicationStatusCommand command, CancellationToken cancellationToken)
