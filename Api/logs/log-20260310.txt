@@ -1,0 +1,17 @@
+2026-03-10 12:30:27.867 +04:00 [INF] User profile is available. Using '/Users/niniokujava/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-10 12:30:27.896 +04:00 [INF] Creating key {9b6cddc2-4b50-4b97-b620-9ea53871963b} with creation date 2026-03-10 08:30:27Z, activation date 2026-03-10 08:30:27Z, and expiration date 2026-06-08 08:30:27Z.
+2026-03-10 12:30:27.899 +04:00 [WRN] No XML encryptor configured. Key {9b6cddc2-4b50-4b97-b620-9ea53871963b} may be persisted to storage in unencrypted form.
+2026-03-10 12:30:27.901 +04:00 [INF] Writing data to file '/Users/niniokujava/.aspnet/DataProtection-Keys/key-9b6cddc2-4b50-4b97-b620-9ea53871963b.xml'.
+2026-03-10 12:30:27.913 +04:00 [INF] Now listening on: http://localhost:5214
+2026-03-10 12:30:27.914 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-10 12:30:27.915 +04:00 [INF] Hosting environment: Development
+2026-03-10 12:30:27.915 +04:00 [INF] Content root path: /Users/niniokujava/RiderProjects/WebApplication2/Api
+2026-03-10 12:30:28.506 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/swagger - null null
+2026-03-10 12:30:28.534 +04:00 [INF] HTTP GET /swagger responded 404 in 18.9068 ms
+2026-03-10 12:30:28.537 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/swagger - 404 0 null 31.0027ms
+2026-03-10 12:30:28.539 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/swagger, Response status code: 404
+2026-03-10 12:30:28.551 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5214/favicon.ico - null null
+2026-03-10 12:30:28.552 +04:00 [INF] HTTP GET /favicon.ico responded 404 in 0.4618 ms
+2026-03-10 12:30:28.552 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5214/favicon.ico - 404 0 null 1.3435ms
+2026-03-10 12:30:28.552 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5214/favicon.ico, Response status code: 404
+2026-03-10 12:32:01.032 +04:00 [INF] Application is shutting down...

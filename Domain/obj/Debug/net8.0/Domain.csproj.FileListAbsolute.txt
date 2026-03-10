@@ -1,0 +1,12 @@
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/bin/Debug/net8.0/Domain.dll
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.dll
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/Debug/net8.0/ref/Domain.dll
