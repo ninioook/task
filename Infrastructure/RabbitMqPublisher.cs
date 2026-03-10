@@ -1,13 +1,14 @@
 ﻿// Infrastructure/Messaging/RabbitMqPublisher.cs
 
+using Core.Interfaces;
+using Domain.Entities;
+using RabbitMQ.Client;
 using System.Text;
 using System.Text.Json;
-using Core;
-using RabbitMQ.Client;
 
 namespace Infrastructure;
 
-public class RabbitMqPublisher:IRabbitPublisher
+public class RabbitMqPublisher : IRabbitPublisher
 {
     private readonly ConnectionFactory _factory;
 
@@ -19,7 +20,7 @@ public class RabbitMqPublisher:IRabbitPublisher
         };
     }
 
-    public async void PublishApplication(object application)
+    public async Task PublishApplication(Application application)
     {
         using var connection = await _factory.CreateConnectionAsync();
         using var channel = await connection.CreateChannelAsync();

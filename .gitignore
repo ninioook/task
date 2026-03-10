@@ -1,0 +1,15 @@
+
+.vs/
+
+
+bin/
+obj/
+
+.idea/
+
+.vscode/
+
+logs/
+*.log
+
+*.copilot.snapshots

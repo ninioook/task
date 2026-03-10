@@ -15,3 +15,9 @@ public enum LoanType
     Installment=3
 }
 
+public enum CustomerStatus
+{
+    Active=1,
+    Inactive=2
+}
+

@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/niniokujava/RiderProjects/WebApplication2/Api/Api.csproj": {}
+    "C:\\Users\\okuja\\source\\repos\\task\\Api\\Api.csproj": {}
   },
   "projects": {
-    "/Users/niniokujava/RiderProjects/WebApplication2/Api/Api.csproj": {
+    "C:\\Users\\okuja\\source\\repos\\task\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/niniokujava/RiderProjects/WebApplication2/Api/Api.csproj",
+        "projectUniqueName": "C:\\Users\\okuja\\source\\repos\\task\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Api/Api.csproj",
-        "packagesPath": "/Users/niniokujava/.nuget/packages/",
-        "outputPath": "/Users/niniokujava/RiderProjects/WebApplication2/Api/obj/",
+        "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\okuja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\okuja\\source\\repos\\task\\Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/niniokujava/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\okuja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj": {
-                "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj"
+              "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj"
               },
-              "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/Infrastructure.csproj"
+              "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -44,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -52,15 +59,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.0, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -98,34 +101,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/niniokujava/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj": {
+    "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj",
-        "packagesPath": "/Users/niniokujava/.nuget/packages/",
-        "outputPath": "/Users/niniokujava/RiderProjects/WebApplication2/Application/obj/",
+        "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\okuja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\okuja\\source\\repos\\task\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/niniokujava/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\okuja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/niniokujava/RiderProjects/WebApplication2/Domain/Domain.csproj": {
-                "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Domain/Domain.csproj"
+              "C:\\Users\\okuja\\source\\repos\\task\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Domain\\Domain.csproj"
               }
             }
           }
@@ -139,7 +148,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -147,15 +157,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.0, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[12.0.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -186,26 +192,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/niniokujava/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/niniokujava/RiderProjects/WebApplication2/Domain/Domain.csproj": {
+    "C:\\Users\\okuja\\source\\repos\\task\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/niniokujava/RiderProjects/WebApplication2/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\okuja\\source\\repos\\task\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Domain/Domain.csproj",
-        "packagesPath": "/Users/niniokujava/.nuget/packages/",
-        "outputPath": "/Users/niniokujava/RiderProjects/WebApplication2/Domain/obj/",
+        "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\okuja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\okuja\\source\\repos\\task\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/niniokujava/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\okuja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -223,7 +235,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -231,11 +244,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.0, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[12.0.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -266,34 +279,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/niniokujava/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/Infrastructure.csproj": {
+    "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/niniokujava/.nuget/packages/",
-        "outputPath": "/Users/niniokujava/RiderProjects/WebApplication2/Infrastructure/obj/",
+        "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\okuja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\okuja\\source\\repos\\task\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/niniokujava/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\okuja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj": {
-                "projectPath": "/Users/niniokujava/RiderProjects/WebApplication2/Application/Application.csproj"
+              "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\okuja\\source\\repos\\task\\Application\\Application.csproj"
               }
             }
           }
@@ -307,7 +326,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -315,15 +335,19 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.0, )"
+              "version": "[12.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[12.0.0, )"
             },
-            "MediatR": {
+            "Dapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[2.1.72, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -354,7 +378,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/niniokujava/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

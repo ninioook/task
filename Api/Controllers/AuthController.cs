@@ -1,23 +1,40 @@
+using Core;
+using Core.Interfaces;
+using Core.QueryHandlers;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 
 namespace WebApplication2.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
     private readonly string _jwtSecret = "super-secret-key-change-this";
     private readonly string _jwtIssuer = "myapp";
     private readonly string _jwtAudience = "myapp-users";
 
+    private readonly CustomerQueryHandler _customerQueryHandler;
+
+    public AuthController(CustomerQueryHandler customerQueryHandler, IConfiguration config)
+    {
+        _customerQueryHandler = customerQueryHandler;
+        _jwtSecret = config["Jwt:Secret"]
+            ?? "this-is-a-super-secret-key-that-is-32-chars!";
+        _jwtIssuer = config["Jwt:Issuer"] ?? "myapp";
+        _jwtAudience = config["Jwt:Audience"] ?? "myapp-users";
+    }
 
     [HttpPost("login")]
-    public IActionResult Login([FromBody] LoginModel model)
+    public async Task<IActionResult> Login([FromBody] LoginModel model, CancellationToken cancellationToken)
     {
-        if (model.UserName != "admin" || model.Password != "password")
+        var query = new CheckUserNameQuery { UserName = model.UserName,Password=model.Password };
+        var customer = await _customerQueryHandler.Handle(query, cancellationToken);
+
+        if (customer is null)
             return Unauthorized();
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSecret));
@@ -34,12 +51,5 @@ public class AuthController : ControllerBase
         var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
 
         return Ok(new { token = jwtToken });
-    }
-    
-    [HttpGet("authorize")]
-    [Authorize]
-    public IActionResult AuthorizeEndpoint()
-    {
-        return Ok($"Hello {User.Identity?.Name}, you are authorized!");
     }
 }
